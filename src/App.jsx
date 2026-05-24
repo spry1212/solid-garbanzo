@@ -1,5 +1,5 @@
 /**
- * NutriPlan — Enhanced Edition
+ * MayaPlan — Enhanced Edition
  *
  * NEW FEATURES:
  * ─────────────────────────────────────────────────────────────────
@@ -1146,7 +1146,7 @@ export default function App() {
   return (
     <div style={{ fontFamily:"'DM Sans',system-ui,sans-serif", background:pageBg, minHeight:"100vh", fontSize:14, color:charcoal }}>
       <div style={{ background:cardBg, borderBottom:"1px solid "+rule, padding:"0 18px", display:"flex", alignItems:"center", justifyContent:"space-between", height:54, position:"sticky", top:0, zIndex:200 }}>
-        <div style={{ fontFamily:"Georgia,serif", fontSize:17, fontWeight:600, color:sage }}>Nutri<span style={{ color:terra }}>Plan</span></div>
+        <div style={{ fontFamily:"Georgia,serif", fontSize:17, fontWeight:600, color:sage }}>Maya<span style={{ color:terra }}>Plan</span></div>
         <nav style={{ display:"flex", gap:4 }}>
           {[["plan","📅 Plan"],["shop","🛒 Shop"],["settings","⚙️ Settings"]].map(([id,label]) => (
             <button key={id} onClick={() => setTab(id)} style={navBtn(tab===id)}>{label}</button>
